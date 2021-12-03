@@ -1,0 +1,4 @@
+name = "poissonsolver"
+uuid = "fc715dfe-7a09-4042-ab43-b573fc16433a"
+authors = ["Fredrik Fryklund <ffry@kth.se>"]
+version = "0.1.0"
