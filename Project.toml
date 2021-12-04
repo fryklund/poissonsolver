@@ -2,3 +2,16 @@ name = "poissonsolver"
 uuid = "fc715dfe-7a09-4042-ab43-b573fc16433a"
 authors = ["Fredrik Fryklund <ffry@kth.se>"]
 version = "0.1.0"
+
+[deps]
+InlineTest = "bd334432-b1e7-49c7-a2dc-dd9149e4ebd6"
+SymPy = "24249f21-da20-56a4-8eb1-6a02cf4ae2e6"
+
+[compat]
+julia = "1.7"
+
+[extras]
+ReTest = "e0db7c4e-2690-44b9-bad6-7687da720f89"
+
+[targets]
+test = ["ReTest"]
